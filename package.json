@@ -1,0 +1,11 @@
+{
+  "name": "sticker-pack-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "adm-zip": "^0.5.16",
+    "pino": "^9.0.0"
+  }
+}
