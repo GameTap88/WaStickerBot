@@ -34,24 +34,6 @@ Type one command in any WhatsApp chat and get a full sticker pack back. The bot 
 | `.allow @Friend` | Let one person use the bot |
 | `.deny` / `.deny @Friend` | Take access back |
 
-## Chess
-
-Play chess right in the chat. The bot draws the board as a picture after every move.
-
-| Command | What it does |
-| --- | --- |
-| `.chess` | Start a game, then someone sends `.join` |
-| `.chess @friend` | Challenge a friend (only they can join) |
-| `.chess bot [easy\|medium\|hard] [black]` | Play the computer |
-| `e4`, `Nf3`, `exd5`, `O-O`, `e8=Q`, `e2e4` | Just type your move, no dot needed |
-| `.moves` `.board` `.flip` `.pgn` | Your legal moves, resend the board, flip it, game record |
-| `.draw` `.resign` | Offer or accept a draw, resign |
-| `.chess end` | Stop the game (owner) |
-
-The board uses the "Cburnett" piece pictures from Wikimedia Commons (CC BY-SA 3.0 / GFDL / GPL), downloaded automatically the first time and saved in a `pieces` folder. If the download fails it falls back to built-in pieces.
-
-Friends do not need `.allow` to play. Anyone in the chat can `.join`, and only the two players' moves count. Games are saved, so they survive a restart. It needs `chessgame.js` in the same folder as `index.js`.
-
 ## Setup
 
 1. Install Node.js 18+ and ffmpeg. On Termux: `pkg install nodejs-lts git ffmpeg`
