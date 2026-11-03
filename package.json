@@ -2,10 +2,16 @@
   "name": "sticker-pack-bot",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": { "start": "node index.js" },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
     "adm-zip": "^0.5.16",
     "pino": "^9.0.0"
+  },
+  "description": "WhatsApp bot that builds sticker packs from Sticker.ly",
+  "engines": {
+    "node": ">=20.19.0"
   }
 }
